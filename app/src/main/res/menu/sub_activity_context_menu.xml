@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pfe.cabinet.MainActivity">
+    <item
+        android:id="@+id/menuUpdate"
+        android:orderInCategory="1"
+        android:title="Mise a jours demande"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menuRemove"
+        android:orderInCategory="1"
+        android:title="Supprimer demande"
+        app:showAsAction="never" />
+
+</menu>

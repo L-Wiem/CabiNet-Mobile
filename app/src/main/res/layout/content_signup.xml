@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pfe.cabinet.SignupActivity"
+    tools:showIn="@layout/activity_signup">
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_nom"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pnom"
+                android:hint="Nom " />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_prenom"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/input_layout_nom"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pprenom"
+                android:layout_below="@+id/pnom"
+
+                android:hint="Prénom " />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_date_naissance"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/input_layout_prenom"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pdateNaissance"
+                android:layout_below="@+id/pprenom"
+
+                android:hint="date naissance " />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_genre"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/input_layout_date_naissance"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pgenre"
+                android:layout_below="@+id/pdate_rdv"
+                android:hint="Genre" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_username"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/input_layout_genre"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pusername"
+                android:layout_below="@+id/pdate_rdv"
+                android:hint="nom d'utilisateur" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_date_password"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/input_layout_username"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ppassword"
+                android:layout_below="@+id/pheure_rdv"
+
+                android:hint="Password" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_confpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pconfpassword"
+                android:layout_below="@+id/ppassword"
+
+                android:hint="confimer mot de passe" />
+
+        </android.support.design.widget.TextInputLayout>
+        <Button android:id="@+id/btnAdd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Inscription"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

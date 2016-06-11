@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cabinet</string>
+
+    <string name="title_activity_sub">List des rendez-vous</string>
+    <string name="title_activity_main2">Rendez-vous</string>
+    <string name="title_activity_main3">Ajout rendez-vous</string>
+    <string name="title_activity_signup">Inscription</string>
+    <string name="title_activity_detail">Modifier rendez-vous</string>
+
+    <string name="err_msg_obli">le champ est obligatoire</string>
+    <string name="err_msg_name">le champ nom est obligatoire</string>
+    <string name="err_msg_surnme">le champ prénom est obligatoire</string>
+    <string name="err_msg_gender">le champ genre est obligatoire</string>
+    <string name="err_msg_date">le champ date de naissance est obligatoire</string>
+    <string name="err_msg_username">le champ nom d\'utilisateur est obligatoire</string>
+    <string name="err_msg_password">le champ mots de passe est obligatoire</string>
+    <string name="err_msg_copassword">le champ confirmer mots de passe est obligatoire</string>
+    <string name="err_msg_confpassword">Ce mot de passe ne correspond pas à votre saisie précédente.</string>
+</resources>

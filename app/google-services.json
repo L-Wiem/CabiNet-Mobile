@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "684158406589",
+    "project_id": "cabinet-45c6d"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684158406589:android:6312a66c3a9a99ba",
+        "android_client_info": {
+          "package_name": "com.pfe.cabinet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAotg-yCvaR0B-f0ph3aDRRa8-B4K6VbXU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
